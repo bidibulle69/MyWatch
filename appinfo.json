@@ -4,141 +4,146 @@
         ""
     ],
     "companyName": "Pierre Delore",
+    "enableMultiJS": false,
     "longName": "MyWatch_fr",
     "projectType": "native",
     "resources": {
         "media": [
             {
-                "file": "images/moon12.png",
-                "name": "IMG_MOON12",
-                "type": "png"
-            },
-            {
-                "file": "images/moon11.png",
-                "name": "IMG_MOON11",
-                "type": "png"
-            },
-            {
-                "file": "images/moon10.png",
-                "name": "IMG_MOON10",
-                "type": "png"
-            },
-            {
                 "file": "images/moon9.png",
                 "name": "IMG_MOON09",
-                "type": "png"
-            },
-            {
-                "file": "images/moon8.png",
-                "name": "IMG_MOON08",
-                "type": "png"
-            },
-            {
-                "file": "images/moon7.png",
-                "name": "IMG_MOON07",
-                "type": "png"
-            },
-            {
-                "file": "images/moon6.png",
-                "name": "IMG_MOON06",
-                "type": "png"
-            },
-            {
-                "file": "images/moon5.png",
-                "name": "IMG_MOON05",
-                "type": "png"
-            },
-            {
-                "file": "images/moon4.png",
-                "name": "IMG_MOON04",
-                "type": "png"
-            },
-            {
-                "file": "images/moon3.png",
-                "name": "IMG_MOON03",
-                "type": "png"
-            },
-            {
-                "file": "images/moon2.png",
-                "name": "IMG_MOON02",
-                "type": "png"
-            },
-            {
-                "file": "images/moon1.png",
-                "name": "IMG_MOON01",
-                "type": "png"
-            },
-            {
-                "file": "images/bluetooth_8_15.png",
-                "name": "IMG_BLUETOOTH",
-                "type": "png"
-            },
-            {
-                "file": "images/empty_8_15.png",
-                "name": "IMG_EMPTY",
-                "type": "png"
-            },
-            {
-                "file": "images/Batt0.png",
-                "name": "IMG_BATT0",
-                "type": "png"
-            },
-            {
-                "file": "images/Batt10.png",
-                "name": "IMG_BATT10",
-                "type": "png"
-            },
-            {
-                "file": "images/Batt20.png",
-                "name": "IMG_BATT20",
-                "type": "png"
-            },
-            {
-                "file": "images/Batt30.png",
-                "name": "IMG_BATT30",
-                "type": "png"
-            },
-            {
-                "file": "images/Batt40.png",
-                "name": "IMG_BATT40",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/Batt50.png",
                 "name": "IMG_BATT50",
-                "type": "png"
+                "type": "bitmap"
             },
             {
-                "file": "images/Batt60.png",
-                "name": "IMG_BATT60",
-                "type": "png"
+                "file": "images/moon8.png",
+                "name": "IMG_MOON08",
+                "type": "bitmap"
             },
             {
-                "file": "images/Batt70.png",
-                "name": "IMG_BATT70",
-                "type": "png"
-            },
-            {
-                "file": "images/Batt80.png",
-                "name": "IMG_BATT80",
-                "type": "png"
+                "file": "images/moon12.png",
+                "name": "IMG_MOON12",
+                "type": "bitmap"
             },
             {
                 "file": "images/Batt90.png",
                 "name": "IMG_BATT90",
-                "type": "png"
+                "type": "bitmap"
+            },
+            {
+                "file": "images/bluetooth_8_15.png",
+                "name": "IMG_BLUETOOTH",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/moon5.png",
+                "name": "IMG_MOON05",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Batt30.png",
+                "name": "IMG_BATT30",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/moon4.png",
+                "name": "IMG_MOON04",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/moon1.png",
+                "name": "IMG_MOON01",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Batt70.png",
+                "name": "IMG_BATT70",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Batt80.png",
+                "name": "IMG_BATT80",
+                "type": "bitmap"
             },
             {
                 "file": "images/Batt100.png",
                 "name": "IMG_BATT100",
-                "type": "png"
+                "type": "bitmap"
+            },
+            {
+                "file": "images/moon11.png",
+                "name": "IMG_MOON11",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/moon3.png",
+                "name": "IMG_MOON03",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/moon2.png",
+                "name": "IMG_MOON02",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Batt10.png",
+                "name": "IMG_BATT10",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Batt20.png",
+                "name": "IMG_BATT20",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/moon7.png",
+                "name": "IMG_MOON07",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/empty_8_15.png",
+                "name": "IMG_EMPTY",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/moon10.png",
+                "name": "IMG_MOON10",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/moon6.png",
+                "name": "IMG_MOON06",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Batt60.png",
+                "name": "IMG_BATT60",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Batt40.png",
+                "name": "IMG_BATT40",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Batt0.png",
+                "name": "IMG_BATT0",
+                "type": "bitmap"
             }
         ]
     },
+    "sdkVersion": "3",
     "shortName": "MyWatch_fr",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
     "uuid": "3b08a22a-d4c2-42a4-80bf-830b8de55ee1",
-    "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "1.2",
     "watchapp": {
         "watchface": true
     }

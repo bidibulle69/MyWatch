@@ -7,7 +7,7 @@ TextLayer *text_time_layer;
 TextLayer *text_wday_layer;
 TextLayer *text_day_month_layer;
 TextLayer *text_weeknumber_layer;
-TextLayer *text_dualtime_layer;
+//TextLayer *text_dualtime_layer;
 
 BitmapLayer *img_bluetooth_layer; 	
 BitmapLayer *img_battery_layer; 	
@@ -222,6 +222,7 @@ void handle_init(void) {
 	Layer *window_layer = window_get_root_layer(window);
 
 	//-- Dual time
+    /*
 	text_dualtime_layer=text_layer_create(GRect(0,-5,40, 18));
 	text_layer_set_text_color(text_dualtime_layer, GColorWhite);
 	text_layer_set_background_color(text_dualtime_layer, GColorClear);
@@ -229,7 +230,8 @@ void handle_init(void) {
 	text_layer_set_font(text_dualtime_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18));
 	text_layer_set_text(text_dualtime_layer, "00:00");
 	layer_add_child(window_layer, text_layer_get_layer(text_dualtime_layer));
-	
+	*/
+    
 	//-- Battery indicator
 	img_battery_layer=bitmap_layer_create (GRect(144-25, 2, 25, 11)); 	
 	bitmap_battery=gbitmap_create_with_resource(RESOURCE_ID_IMG_BATT100);
@@ -302,7 +304,7 @@ void handle_deinit(void) {
 	gbitmap_destroy(bitmap_moon);
 	
 	text_layer_destroy(text_time_layer);
-	text_layer_destroy(text_dualtime_layer);
+	//text_layer_destroy(text_dualtime_layer);
 	text_layer_destroy(text_wday_layer);
 	text_layer_destroy(text_day_month_layer);
 	text_layer_destroy(text_weeknumber_layer);
